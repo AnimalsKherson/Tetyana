@@ -1,0 +1,17 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
+}
+
+.search__image {
+    max-width: 450px;
+    @media screen and (max-width: 768px) {
+        max-width: 80%;
+                }
+}

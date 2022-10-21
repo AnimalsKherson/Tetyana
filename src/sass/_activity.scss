@@ -1,0 +1,13 @@
+.activity__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
+}
