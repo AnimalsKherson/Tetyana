@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 94px;
-    background: yellow;
+    background: rgb(0, 255, 17);
     @media screen and (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .footer__signature {
-    background: #073700;
+    background: #7fe26f;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
